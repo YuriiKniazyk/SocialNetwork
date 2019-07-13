@@ -1,0 +1,8 @@
+<button (click) = "allPeople()">Show All People</button>
+<ul>
+  <li *ngFor="let user of users">
+    {{user.name}}
+    {{user.surname}}
+    <button (click)="addTofriend(user._id)">Add to friend</button>
+  </li>
+</ul>

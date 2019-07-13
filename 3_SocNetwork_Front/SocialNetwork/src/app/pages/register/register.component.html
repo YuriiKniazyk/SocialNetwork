@@ -1,0 +1,8 @@
+<h2>Register on this site</h2>
+<form>
+  <input type="text" name='name' placeholder="Enter your name: " [(ngModel)]="user.name">
+  <input type="text" name="surname" placeholder="Enter your surname: " [(ngModel)]="user.surname">
+  <input type="password" name="password" placeholder="Enter your password: "[(ngModel)]="user.password">
+  <input type="email" name="email" placeholder="Enter your email: "[(ngModel)]="user.email">
+  <button (click) = "register()">Register Me</button>
+</form>

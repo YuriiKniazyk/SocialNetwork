@@ -1,0 +1,9 @@
+nav {
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+  }
+  
+  nav a {
+      padding-left: 10px;
+    color: #666;
+  }

@@ -1,0 +1,13 @@
+<h2>Find people</h2>
+<form>
+  <input type="text" name='name' placeholder="Enter your name: " [(ngModel)]="find">
+  <button (click) = "findPeople()">Find Me</button>
+</form>
+
+<ul>
+  <li *ngFor="let user of users">
+    {{user.name}}
+    {{user.surname}}
+    <button (click)="addTofriend(user._id)">Add to friend</button>
+  </li>
+</ul>
